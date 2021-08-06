@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Website | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon/favicon-16x16.png">
+    <link rel="manifest" href="logo/favicon/site.webmanifest">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+    <nav>
+        <a class="menu-btn" href="#">Home</a>
+        <a class="menu-btn" href="#">Videos</a>
+        <a class="menu-btn" href="#">Using iframe</a>
+        <a class="menu-btn" href="#">Documents</a>
+        <a href="#" class="menu-btn flex-align-right">Login/SingUp</a>
+    </nav>
+    <main>
+        <section>
+            <br>
+            <h2><span>Videos</span></h2>
+            <div class="carousel"
+                data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell"><video src="video/halloween.mp4.mp4"  poster="images/red.jpg" controls muted></video></div>
+                <div class="carousel-cell"><video src="video/halloween.mp4.mp4"  poster="images/bubbles.jpg" controls muted></video></div>
+                <div class="carousel-cell"><video src="video/halloween.mp4.mp4"  poster="images/stars.jpg" controls muted></video></div>
+                <div class="carousel-cell"><video src="video/halloween.mp4.mp4"  poster="images/red.jpg" controls muted></video></div>
+                <div class="carousel-cell"><video src="video/halloween.mp4.mp4"  poster="images/bubbles.jpg" controls muted></video></div>
+                <div class="carousel-cell"><video src="video/halloween.mp4.mp4"  poster="images/stars.jpg" controls muted></video></div>
+            </div>
+          
+            
+        </section>
+        <section>
+            <h2><span>Using iframe</span></h2>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell iframe-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/s4BibernJxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/s4BibernJxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/s4BibernJxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              
+            </div>
+
+          
+            
+        </section>
+        <section>
+            <h2><span>Documents</span></h2>
+            <div class="carousel"data-flickity='{ "wrapAround": true }'>
+              <div class="carousel-cell"><a target="_blank" href="Notes/English.pdf" ><img class="img-responsive" src="images/English.jpg" alt="" ></a></div>
+              <div class="carousel-cell"><a target="_blank" href="Notes/English.pdf" ><img class="img-responsive" src="images/English.jpg" alt="" ></a></div>
+              <div class="carousel-cell"><a target="_blank" href="Notes/English.pdf" ><img class="img-responsive" src="images/English.jpg" alt="" ></a></div>
+              <div class="carousel-cell"><a target="_blank" href="Notes/English.pdf" ><img class="img-responsive" src="images/English.jpg" alt="" ></a></div>
+             </div>
+            
+        </section>
+        <section>
+            <h2><span>Our Founder</span></h2>
+            <img class="profile_img" src ="images/user.jpg" alt="This is an Egg">
+            <h3 class="profile_name">Mr.Androide</h3>
+            <div class="sm-handle">
+            <a href="http://youtube.com" target="_blank" class="yt-handle" rel="noopener noreferrer" ><i class="fa fa-youtube-play yt-handle"></i> Youtube</a>
+            <a href="http://youtube.com" target="_blank" class="insta-handle" rel="noopener noreferrer"> <i class="fa fa-instagram insta-handle"></i> Instagram</a> 
+            <a href="http://youtube.com" target="_blank" class="linkedin-handle" rel="noopener noreferrer"> <i class="fa fa-linkedin linkedin-handle"></i> LinkedIn</a>
+            <div class="about_us">
+             <h4 class="about_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quibusdam maiores consectetur perspiciatis! Mollitia quas distinctio deleniti velit aspernatur excepturi?</h4>
+             <h5 class="about_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sed. Laboriosam nemo, fugit esse distinctio enim eum dolore reiciendis reprehenderit, expedita temporibus nobis consequuntur voluptates doloremque ratione hic quasi qui consequatur officiis deleniti iste tempora repellat? Neque illum quibusdam molestiae.</h5>
+           </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+          <a class="footer" href="#">FAQ</a>
+          <a class="footer" href="#">Contact Us</a>
+          <a class="footer" href="#">Terms of Use</a>
+          <a class="footer" href="#">Privacy Policy</a>
+          <a class="footer" href="#">Refund Policy</a>
+          <a class="copyright footer flex-align-right" href="#">&copy; 2021 | Demo Website</a>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+</body>
+</html>
